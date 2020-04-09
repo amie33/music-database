@@ -1,0 +1,114 @@
+/*this is your stylesheet for your t-shirts*/
+*{
+	box-sizing: border-box; 
+	padding: 0px;
+	background-color: wheat;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black; 
+  font-family: 'Shadows Into Light', cursive;
+}
+.menu{
+	list-style-type: none;
+	margin: -8px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: black;
+	position: fixed; 
+	top: 0; 
+	width: 100%;
+}
+li{
+	float: left;
+}
+li a:hover {
+  background-color: #63FF3D;
+  color: #4E0066;
+}
+.head{
+	text-align: center;
+	padding-top: 75px;
+	font-family: 'Mansalva', cursive;
+	font-size: 45px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: crimson;
+	color: wheat;
+}
+input[type=text], select{
+	width: 50%;
+	padding: 20px;
+	margin: 10px 0;
+	display: block;
+	border: 1px solid #limegreen;
+	border-radius: 4px;
+	box-sizing: border-box; 	
+}
+input[type=text]
+{
+	background-color: black;
+	color: crimson;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+}
+select{
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+	background-color: black;
+	color: crimson;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form {
+	padding-top: 30px;
+    margin-left: 30%;
+    margin-right:30%;
+    width: 85%;
+}
+input[type=submit], input[type=reset]{
+	width: 50%;
+	padding: 20px;
+	margin: 10px 0;
+	display: block;
+	border: 1px solid #limegreen;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 30px;
+}
+input[type=submit]{
+	background-color: MediumSpringGreen;
+	font-weight: bold;
+}input[type=reset]{
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+div.orderDisplay{
+	font-size: 20px;
+	text-align: center;
+font-family: 'Concert One', cursive;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+/*style sheet for tshirt display form*/ 
+*{
+	background-color: MediumSpringGreen;
+	padding: 10px;
+}
+.tHeading{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+p{
+	text-align: center;
+	font-family: 'Finger Paint', cursive;
+}

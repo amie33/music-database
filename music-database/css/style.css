@@ -1,0 +1,99 @@
+*{
+	background-color: LightCoral;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.albums{
+	border-collapse: collapse;
+}
+
+/*center my table in the middle of the page*/
+table.albums{
+	
+	margin-top: 50px;
+	margin-left:auto; 
+    margin-right:auto;
+	border-style: inset;
+	border-width: 10px;
+	border-color: Tomato;
+
+}
+.albums td, .albums th {
+	border: 3px dotted Tomato;
+	padding: 8px;
+}
+
+.albums th{
+	font-size: 50px;
+	color: GoldenRod; 
+	font-family: 'Mansalva', cursive;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: IndianRed;
+}
+.albums td{
+	font-family: 'Mansalva', cursive; 
+	font-size: 25px; 
+	text-align: center; 
+	color: GoldenRod;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+.albums tr:hover:nth-child(2){
+	content: url("../img/td.webp");
+}
+.albums tr:hover:nth-child(3){
+	content: url("../img/amyg.webp");
+}
+.albums tr:hover:nth-child(4){
+	content: url("../img/chain.webp"); 
+}
+.albums tr:hover:nth-child(5){
+	content: url("../img/unclefrank.webp"); 
+}
+.albums tr:hover:nth-child(6){
+	content: url("../img/gai.webp"); 
+}
+.albums tr:hover:nth-child(7){
+	content: url("../img/mh.webp"); 
+}
+.albums tr:hover:nth-child(8){
+	content: url("../img/dirty.webp"); 
+}
+.albums tr:hover:nth-child(9){
+	content: url("../img/piano.webp"); 
+}
+.albums tr:hover:nth-child(10){
+	content: url("../img/hot.webp"); 
+}
+.albums tr:hover:nth-child(11){
+	content: url("../img/hell.webp");
+}
+.linky{
+	text-decoration: none;
+	
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black; 
+  font-family: 'Shadows Into Light', cursive;
+}
+.menu{
+	list-style-type: none;
+	margin: -8px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: black;
+}
+li{
+	float: left;
+}
+li a:hover {
+  background-color: #63FF3D;
+  color: #4E0066;
+}

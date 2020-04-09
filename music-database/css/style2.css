@@ -1,0 +1,81 @@
+*{
+	background-color: #30acec; 
+	box-sizing: border-box;
+}
+.slideShow{
+	max-width: 1000px;
+	position: relative; 
+	margin: auto; 
+	left: 19%; 
+	padding: 20px;
+  
+}
+.wrapper{
+	text-align: center; 
+}
+
+img{
+	vertical-align: middle;
+}
+table.musicPeeps{
+	margin-left: auto; 
+    margin-right: auto;
+	border-style: double;
+	border-width: 5px;
+	border-color: #a666e1;
+}
+.musicPeeps td, .musicPeeps th{
+	border: 3px dashed #a666e1;
+	padding: 10px;
+}
+.musicPeeps td{
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 30px;
+	color: #d64a3b; 
+	
+}
+.musicPeeps th{
+	font-family: 'Lacquer', sans-serif;
+	font-size: 40px;
+	color: MediumSpringGreen;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #d64a3b;
+}
+
+h1{
+	text-align: center;
+	padding: 10px;
+	font-family: 'Lacquer', sans-serif;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: Tomato;
+	color: MediumSpringGreen; 
+	font-size: 50px;
+}
+.musicPeeps{
+	border-collapse: collapse;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black; 
+  font-family: 'Lacquer', sans-serif;
+}
+.top-bar{
+	list-style-type: none;
+	margin: -8px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: black;
+}
+li{
+	float: left;
+}
+li a:hover {
+  background-color: #63FF3D;
+  color: #4E0066;
+}
+
+
